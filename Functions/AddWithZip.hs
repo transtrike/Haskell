@@ -1,10 +1,6 @@
-sumMeSomeZips :: [a] -> [a] -> [a]
-sumMeSomeZips arr1 arr2 = do
-    let len = min (length arr1 arr2)
-    
-
 main :: IO ()
 main = do
-    let arr1 = []
-    let arr2  = []
-    sumMeSomeZips arr1 arr2 
+    let arr1 = [1, 2, 3] 
+    let arr2  = [4, 5, 6]
+    --BROKENNN!!!
+    -- print $ foldl (+) (head arr1) (tail arr2 )
