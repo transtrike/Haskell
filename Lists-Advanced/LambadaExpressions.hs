@@ -18,4 +18,5 @@ readUntil =
 main :: IO ()
 main = do
     -- {selector} => {selectorObject}.{property}
+    -- DOESN'T WORK FOR NOW!!!!
     print readUntil
