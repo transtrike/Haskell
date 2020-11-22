@@ -71,7 +71,7 @@ rollRightCmd arr cmd = do
     let count = read (cmd !! 1) :: Int
     rotateRight arr count
 
--- End of COMMANDS!!!
+-- End of COMMANDS!!!o
 
 performOperationsOnArr :: [String] -> [String] -> [String] 
 performOperationsOnArr arr cmd = 
